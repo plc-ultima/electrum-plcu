@@ -1,0 +1,9 @@
+[submodule "contrib/deterministic-build/electrum-plcu-locale"]
+	path = contrib/deterministic-build/electrum-plcu-locale
+	url = https://github.com/plc-ultima/electrum-plcu-locale.git
+[submodule "electrum_plcu/www"]
+	path = electrum_plcu/www
+	url = https://github.com/plc-ultima/electrum-plcu-http.git
+[submodule "electrum_plcu/gui/kivy/theming/atlas"]
+	path = electrum_plcu/gui/kivy/theming/atlas
+	url = https://github.com/spesmilo/electrum-kivy-atlas

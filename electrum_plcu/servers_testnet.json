@@ -1,0 +1,8 @@
+{
+    "electrum.plcu.dev": {
+        "pruning": "-",
+        "t": "50001",
+        "s": "50002",
+        "version": "1.4"
+    }
+}

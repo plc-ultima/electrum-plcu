@@ -1,0 +1,22 @@
+# If you want Electrum to appear in a Linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install electrum-plcu.desktop
+
+[Desktop Entry]
+Comment=Lightweight PLC Ultima Client
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum-plcu %u"
+GenericName[en_US]=PLC Ultima Wallet
+GenericName=PLC Ultima Wallet
+Icon=electrum-plcu
+Name[en_US]=Electrum PLC Ultima Wallet
+Name=Electrum PLC Ultima Wallet
+Categories=Finance;Network;
+StartupNotify=true
+StartupWMClass=electrum-plcu
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/plcultima;
+Actions=Testnet;
+
+[Desktop Action Testnet]
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum-plcu --testnet %u"
+Name=Testnet mode
